@@ -1,7 +1,1 @@
-let preloader = document.querySelector('.preloader');
-
-window.addEventListener('load', vanish);
-
-function vanish() {
-    preloader.classList.add("disappear")
-}
+let preloader=document.querySelector(".preloader");function vanish(){preloader.classList.add("disappear")}window.addEventListener("load",vanish);
